@@ -1,0 +1,124 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.nav{
+    background-color: orange;
+    text-align: center;
+    font-size: 1em;
+}
+
+#title{
+    padding: 7px;
+    margin: 0;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#select{
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    width: 241px;
+    margin: 24px 0;
+}
+
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#trans{
+    position: relative;
+    top: -14px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#input{
+    height: 150px;
+    resize: none;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 18px;
+    font-size: 1.3em;
+}
+
+.translation{
+    width: 582px;
+    background-color: rgba(151, 151, 151, 1);
+    padding: 18px;
+    height: 114px;
+}
+
+.media{
+    margin-top: 35px;
+    text-align: center;
+}
+
+#audio{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.boton{
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center;
+}
+
+#mandar{
+    margin: 35px auto;
+    background-color: orange;
+    text-align: center;
+    width: 326px;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+#mandar1{
+    margin: 35px auto;
+    background-color: orange;
+    text-align: center;
+    width: 326px;
+    padding: 11px;
+    border-radius: 5px;
+    position: relative;
+    top: -80px;
+}
+
+#mandar1:hover{
+    cursor: pointer;
+}
+
+#mandar:hover{
+    cursor: pointer;
+}
+
+#otro{
+    margin: 25px auto;
+    background-color: orange;
+    text-align: center;
+    width: 45px;
+    padding: 9px;
+}
+
+#otro:hover{
+    cursor: pointer;
+}
+
