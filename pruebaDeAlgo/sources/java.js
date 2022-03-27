@@ -19,15 +19,15 @@ create.onclick = function(){
 
 no.onmouseover = function(){
     let random2 = Math.floor(Math.random()*220)
-    let random = Math.floor(Math.random()*650);
-    this.style.top = random;
+    let random = Math.floor(Math.random()*100);
+    this.style.top = random + '%';
     this.style.left = random2;
 }
 
 no.onclick = function(){
     let random2 = Math.floor(Math.random()*220)
-    let random = Math.floor(Math.random()*700);
-    this.style.top = random;
+    let random = Math.floor(Math.random()*100);
+    this.style.top = random + '%';
     this.style.left = random2;
 }
 
