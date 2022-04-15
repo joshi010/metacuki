@@ -109,6 +109,11 @@ h1, h2, h3{
     }
 
     .boton{
+        background-color: rgb(64, 64, 255);
         margin: 10px auto;
+    }
+
+    .boton a{
+        color: white;
     }
 }
