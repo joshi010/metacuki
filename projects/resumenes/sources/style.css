@@ -72,7 +72,13 @@ h1, h2, h3{
 
 @media only screen and (max-width: 500px){
 
-    h1 {font-size: 40px;
+    #hache2{
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .nav-bar p{
+        width: 95px;
     }
 
     .card{
@@ -85,5 +91,10 @@ h1, h2, h3{
 
     .boton{
         margin: 10px auto;
+    }
+
+    .nav-bar img{
+        width:95px;
+        padding: 20px 0;
     }
 }
