@@ -36,27 +36,27 @@ function choose(){
     let random = Math.floor(Math.random()*6)
         switch(random) {
             case 0:
-                audio.src = './sources/audios/audio1.mp3';
+                audio.src = '../sources/audios/audio1.mp3';
                 traduccion.innerHTML = 'AAAAA aaaa AAAAA';
                 break;
             case 1:
-                audio.src = "./sources/audios/audio2.mp3";
+                audio.src = "../sources/audios/audio2.mp3";
                 traduccion.innerHTML = 'AAAAAAAA ahh AAAAAAAAAAAA';
                 break;
             case 2:
-                audio.src = './sources/audios/audio3.mp3';
+                audio.src = '../sources/audios/audio3.mp3';
                 traduccion.innerHTML = 'UUUauAuAu IiiiieeehH';
                 break;
             case 3:
-                audio.src = "./sources/audios/audio4.mp3";
+                audio.src = "../sources/audios/audio4.mp3";
                 traduccion.innerHTML = 'UeEEeEEEE UeeeEEEE';
                 break;
             case 4:
-                audio.src = "./sources/audios/audio5.mp3";
+                audio.src = "../sources/audios/audio5.mp3";
                 traduccion.innerHTML = 'UUUAaa UaaaAa UaaA uh uh uh oh';
                 break;
             case 5:
-                audio.src = "./sources/audios/audio6.mp3";
+                audio.src = "../sources/audios/audio6.mp3";
                 traduccion.innerHTML = 'Iiiii IIiii IIIIIIIIII';
                 break;
         }
