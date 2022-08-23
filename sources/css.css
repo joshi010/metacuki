@@ -82,7 +82,7 @@ ul{
 .container{
     height: 90%;
     background-color: black;
-    background-image: url('..images/pictures/cock.png');
+    background-image: url('../images/pictures/cock.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: calc(100% - 100px) 100%;
