@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.welcome{
+    background-image: url("./media/welcomeimg.png");
+    background-position: 25%;
+    background-size: cover;
+    color: white;
+    position: relative;
+    top: 110px;
+}
+
+.texto::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.texto{
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+    height: 430px;
+    position: relative;
+    top: 175px;
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.content{
+    text-align: center;
+    margin: 200px 50px;
+}
+
+#navbar-item{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#future{
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(53, 53, 53, 0.2);
+    padding-bottom: 30px;
+    width: 55%;
+}
+
+#gallery{
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(53, 53, 53, 0.2);
+    padding-bottom: 30px;
+    width: 55%;
+}

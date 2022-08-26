@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #000;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.nav-ic{
+    width: 65px;
+}
+
+.nav-ic img{
+    width: 100%;
+    overflow: hidden;
+}
+
+nav{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.all{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.select{
+    margin-bottom: 50px; 
+    display: flex;
+    justify-content: center;
+}
+
+.selection{
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.interaction{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#input{
+    resize: none;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    width: 542px;
+    height: 150px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.translation{
+    background-color: gray;
+    width: 500px;
+    height: 110px;
+    padding: 20px;
+    text-align: left;
+    border-bottom-right-radius: 5px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.options{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: solid 2px orange;
+    height: 20px;
+    position: relative;
+}
+
+.op-car{
+    height: 100%;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#op-1{
+    border-right: none;
+}
+
+#op-2{
+    border-left: none;
+}
+
+.active{
+    border-bottom: solid 2px rgb(124, 124, 255);
+}

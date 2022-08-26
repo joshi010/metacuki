@@ -1,0 +1,455 @@
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+h1{
+    font-size: 45px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Bahnschrift', sans-serif;
+    font-weight: bold;
+}
+
+.ham-search{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    padding-left:14px;
+    padding-right: 20px;
+
+}
+
+.mag-cont{
+    width: 55px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.mag-cont img{
+    width: 100%;
+}
+
+.ham{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    display: none;
+}
+
+.line{
+    background-color: black;
+    height: 2px;
+    width: 53px;
+
+}
+
+nav{
+    position: sticky;
+    font-family: 'Bahnschrift', sans-serif;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 62px;
+    font-weight: bold;
+    top: 0;
+    transition: all 0.6s;
+
+}
+
+.nav-shadow{
+    box-shadow: 0 10px 10px lightgray;
+    transition: all 0.5s;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited{
+    color: black;
+}
+
+nav a:hover{
+    color: gray;
+    transition: 0.3s all;
+}
+
+.ham-cont{
+    display: none;
+}
+
+.nav-options{
+    display: flex;
+    list-style: none;
+    gap: 37px;
+}
+
+.publicar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 42px;
+    font-family: 'Anton', sans-serif;
+    background-color: #62ff48;
+    cursor: pointer;
+}
+
+.nav-active{
+    color: gray;
+    cursor: default;
+}
+
+.jumbotron-search{
+    height: 473px;
+    width: 100%;
+    background-color: #aaaaaa38;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-search-bar{
+    margin-top: 54px;
+    display: flex;
+}
+
+.big-search-button{
+    width: 170px;
+    height: 70px;
+    background-color: #7cd500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bahnschrift', sans-serif;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.search-inicio{
+    width: 450px;
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 29px 26px;
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.section-heading{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.search-cards{
+    margin-top: 69px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 69px;
+    padding-bottom: 69px;
+}
+
+.img-container{
+    width: 100%;
+    height: 277px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+}
+
+a{
+    width: 100%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.card{
+    width: 407px;
+    height: 436px;
+    background-color: #fff;
+    box-shadow: 0 10px 5px lightgray;
+    transition: 0.5s all;
+    border-radius: 10px;
+}
+
+.info{
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+.card:hover{
+    transition: 0.8s all;
+    box-shadow: 0 30px 20px lightgray;
+}
+
+.jumbotron{
+    background-color: #f9f0d7;
+    background-image: url('./imgs/portada2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.center{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.button {
+    margin: 35px 0;
+}
+
+.button a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-family:  'Bahnschrift', sans-serif;
+    color: inherit;
+
+}
+
+.bg-green:hover{
+    background-color: #6ebd00;
+    transition: all 0.7s;
+}
+
+.bg-green{
+    background-color: #7cd500;
+}
+
+.bg-gray{
+    background-color: #e7e0cd;
+}
+
+.fs-2{
+    font-size: 20px;
+}
+
+.fs-3{
+    font-size: 30px;
+}
+
+.my-d{
+    margin: 110px 0;
+}
+
+.my-2{
+    margin: 20px 0;
+}
+.foros{
+    width: 100%;
+    height: auto;
+    margin-top: 147px;
+    padding: 56px 0;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.foros-inf{
+    margin: 20px;
+}
+
+.citas {
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+#genera-cita{
+    font-size: 50px;
+    margin: 0 45px;
+}
+
+#centrar{
+    display: flex;
+    justify-content: center;
+}
+
+#autor{
+    font-style: italic;
+}
+
+.extra-btn{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-family:  'Bahnschrift', sans-serif;
+    color: inherit;
+    width: 100px;
+}
+
+@media only screen and (max-width: 1625px){
+
+    .search-cards{
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card{
+        width: 271px;
+        height: 290px;
+    }
+
+
+    .img-container{
+        height: 174px;
+    }
+
+    .jumbotron{
+        background-position: bottom;
+    }
+}
+@media only screen and (max-width: 1120px){
+    .search-cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #cn-4{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 812px){
+
+    h1{
+        font-size: 35px;
+    }
+
+    nav{
+        padding: 0 35px;
+    }
+
+    .search-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    #cn-4{
+        display: block;
+    }
+
+    .jumbotron{
+        background-size: 945px;
+    }
+}
+
+
+@media only screen and (max-width: 613px){
+
+    h1{
+        text-align: center;
+    }
+
+    .tit-desc{
+        width: 50%;
+        background-color: #fff;
+        z-index: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .ham-cont{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 1;
+
+    }
+
+    .ham{
+        display: flex;
+        padding: 0 15px;
+
+    }
+
+    .nav-options{
+        position: fixed;
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #aaaaaa;
+        text-align: center;
+        flex-direction: column;
+        padding: 20px 0;
+        bottom: 100%;
+        transition: 0.3s all;
+
+    }
+
+    nav a{
+        padding: 15px;
+    }
+
+    .show{
+        bottom: calc(100% - 237px);
+        z-index: 0;
+        transition: 0.3s all;
+    }
+
+    nav{
+        padding: 0;
+        height: 65px;
+    }
+
+    .jumbo-search-bar{
+        width: 90%;
+    }
+
+    .search-inicio{
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .big-search-button{
+        width: 30%;
+    }
+
+    .search-cards{
+        overflow: scroll;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card{
+        width: 295px;
+        height: 305px;
+        margin: 0 20px;
+    }
+
+    .jumbotron{
+        background-size: 506px 200px;
+    }
+
+    #genera-cita {
+        font-size: 40px;
+        margin: 0 15px;
+    }
+
+}
