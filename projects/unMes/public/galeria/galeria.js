@@ -20,7 +20,7 @@ let arr = [
     },
 
     {
-        image: './fotos/30.jpg',
+        image: './fotos/30.JPG',
         description: 'La verdad no tengo idea de que viste en mi (aún no me recupero de ese corte)',
     },
 
