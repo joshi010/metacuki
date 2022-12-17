@@ -1,28 +1,7 @@
 let time = document.getElementById('time');
 
-const date = {
-    day: 11,
-    month: 11,
-    year: 2022,
 
-}
 
-// const lel = () => {
-//     const event = new Date()
-//     const arr = [event.getDate(), event.getMonth()+1, event.getFullYear(), event.getHours(), event.getMinutes(), event.getSeconds()];
-
-//     let dia = (31 - arr[0]) + 11;
-//     let horas = (24 - arr[3]) -1;
-//     let minutos = (60 - arr[4]) -1;
-//     let segundos = (60 - arr[5]) -1;
-//     console.log(dia, horas, minutos, segundos);
-
-//     if(minutos < 9) {
-//         let cock = `0${minutos}`;
-//         return cock;
-//     }
-    
-// }
 
 let tdate = new Date('November 11, 2022 20:30:13');
 

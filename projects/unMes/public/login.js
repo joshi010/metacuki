@@ -5,6 +5,7 @@ let pistCanv = document.getElementById('pista');
 
 const login = () => {
     window.open('./inicio.html', '_self');
+    document.cookie = "logedIn=True";
 }
 
 pist.onclick = () => {
@@ -20,3 +21,4 @@ cont.oninput = () => {
         login();
     }
 }
+
