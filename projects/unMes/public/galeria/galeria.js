@@ -2,6 +2,7 @@ let arr = [
     {
         image: './fotos/14.jpg',
         description: 'Aunque aún no lo sabíamos, este fue el inicio de la mejor etapa de mi vida.',
+        heart: '../../iconos/heart-active.png'
     },
 
     {

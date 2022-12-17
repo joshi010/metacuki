@@ -22,7 +22,7 @@ body{
     border-radius: 5px;
     box-shadow: 5px 3px 20px lightgray;
     position: sticky;
-    top: 5px;
+    top: 10px;
     border-bottom: 5px solid black;
     border-left: 5px solid black;
     transition: all 0.3s;
@@ -82,15 +82,30 @@ body{
     width: 100%;
 }
 
+.inter-act{
+    display: flex;
+    gap: 10px;
+    margin: 5px 20px 0 20px; 
+}
+
+.heart-icon{
+    width: 24px;
+    height: 24px;
+
+    cursor: pointer;
+}
+
+.heart-icon img {
+    width: 100%;
+}
 
 .desc{
     min-height: 80px;
     max-height: 120px;
     color: aliceblue;
     font-size: 20px;
-    margin: 0 20px;
+    margin: 5px 20px 0 20px;
     display: flex;
-    align-items: center;
 }
 
 .card-containers{
