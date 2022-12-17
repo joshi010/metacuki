@@ -24,41 +24,50 @@ const date = {
     
 // }
 
-let num = 10;
+let tdate = new Date('November 11, 2022 20:30:13');
+
+const res = () => {
+    let now = Date.now();
+    let miliDif = now - tdate.getTime();
+
+    let secs = (miliDif / 1000);
+    let min = (secs / 60).toFixed(0);
+    let hour = (min/60).toFixed(0);
+    let day = (hour/24).toFixed(0);
+    let remainSecs = ((secs%60).toFixed(0));
+    let remainMin = ((min%60).toFixed(0));
+    let remainHour = ((hour%60).toFixed(0));
+
+    return {seconds: remainSecs, minutes:remainMin, hour: remainHour, day: day};
+}
+
 setInterval(function(){
-    const event = new Date()
-    const arr = [event.getDate(), event.getMonth()+1, event.getFullYear(), event.getHours(), event.getMinutes(), event.getSeconds()];
 
-    let dia = (30-11) + arr[0];
-    let horas = arr[3];
-    let minutos = arr[4];
-    let segundos = arr[5];
-
-    if(segundos <= 9){
-        zeroS = `0${segundos}`;
+    if(res().seconds <= 9){
+        zeroS = `0${res().seconds}`;
     } else {
-        zeroS = segundos;
+        zeroS = res().seconds;
     }
 
-    if(minutos <= 9){
-        zeroM = `0${minutos}`;
+    if(res().minutes <= 9){
+        zeroM = `0${res().minutes}`;
     } else {
-        zeroM = minutos;
+        zeroM = res().minutes;
     }
 
-    if(horas <= 9){
-        zeroH = `0${horas}`;
+    if(res().hour <= 9){
+        zeroH = `0${res().hour}`;
     } else {
-        zeroH = horas;
+        zeroH = res().hour;
     }
 
-    if(dia <= 9) {
-        zeroD = `0${dia}`;
+    if(res().day <= 9) {
+        zeroD = `0${res().day}`;
     } else {
-        zeroD = dia;
+        zeroD = res().day;
     }
 
-    time.innerHTML = `${zeroD}: ${zeroH}: ${zeroM}: ${zeroS}`
+    time.innerHTML = `${zeroD}: ${zeroH}: ${zeroM}: ${zeroS}`;
     
     
 }, 1000);
