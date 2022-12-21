@@ -12,10 +12,11 @@ const res = () => {
     let secs = (miliDif / 1000);
     let min = (secs / 60).toFixed(0);
     let hour = (min/60).toFixed(0);
-    let day = (hour/24).toFixed(0);
+    let day = (hour/24).toFixed(0) - 1;
     let remainSecs = (((secs - 30) %60).toFixed(0));
     let remainMin = ((min%60).toFixed(0));
-    let remainHour = ((hour%60).toFixed(0));
+    let remainHour = hour%24;
+
 
     return {seconds: remainSecs, minutes:remainMin, hour: remainHour, day: day};
 }
